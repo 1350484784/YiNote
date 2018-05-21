@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/side_nav_bar"
+     >
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="bottom"
+	    android:orientation="vertical"
+	    android:paddingTop="10dp"
+	    >
+
+	    <ImageView
+	        android:id="@+id/id_left_userimg"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:paddingTop="10dp"
+	        android:layout_gravity="center"
+	        android:src="@drawable/ic_header_login" />
+	
+	    <TextView
+	        android:id="@+id/id_left_username"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dp"
+	        android:layout_gravity="center"
+	        android:text="用户名"
+	        android:textAppearance="?android:attr/textAppearanceLargeInverse"
+	        android:textSize="18dp" />
+
+	</LinearLayout>
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:orientation="horizontal"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:layout_marginTop="10dp"
+	    android:gravity="center_vertical"
+	    android:background="@drawable/linearlayout_border"
+	    >
+	    
+        <ImageView
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:src="@drawable/ic_menu_allnotes" />
+        
+	    <Button
+	        android:id="@+id/allNotes"
+	        android:layout_width="90dp"
+	        android:layout_height="40dp"
+	        style="?android:attr/borderlessButtonStyle"
+	        android:text="All Notes" />
+        
+	</LinearLayout>
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:orientation="horizontal"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:layout_marginTop="10dp"
+	    android:gravity="center_vertical"
+	    android:background="@drawable/linearlayout_border"
+	    >
+	    
+        <ImageView
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:src="@drawable/ic_menu_search_2" />
+        
+	    <Button 
+	        android:id="@+id/searchNote"
+	        android:layout_width="90dp"
+	        android:layout_height="40dp"
+	        style="?android:attr/borderlessButtonStyle"
+	        android:text="Search"
+	        />
+        
+	</LinearLayout>
+
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:orientation="horizontal"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:layout_marginTop="10dp"
+	    android:gravity="center_vertical"
+	    android:background="@drawable/linearlayout_border"
+	    >
+	    
+        <ImageView
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:src="@drawable/yun" />
+        
+	    <Button 
+	        android:id="@+id/cloudData"
+	        android:layout_width="90dp"
+	        android:layout_height="40dp"
+	        style="?android:attr/borderlessButtonStyle"
+	        android:text="CloudData"
+	        android:textSize="15dp"
+	        />
+	</LinearLayout>
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:orientation="horizontal"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:layout_marginTop="10dp"
+	    android:gravity="center_vertical"
+	    android:background="@drawable/linearlayout_border"
+	    >
+	    
+        <ImageView
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:src="@drawable/ic_menu_logout" />
+        
+	    <Button 
+	        android:id="@+id/logout"
+	        android:layout_width="90dp"
+	        android:layout_height="40dp"
+	        style="?android:attr/borderlessButtonStyle"
+	        android:text="Logout"
+	        />
+    </LinearLayout>
+</LinearLayout>
